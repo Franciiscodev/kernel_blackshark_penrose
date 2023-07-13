@@ -3,7 +3,7 @@
 #set -e
 
 ## Copy this script inside the kernel directory
-KERNEL_DEFCONFIG=sweet_defconfig ## Ini defconfignya setiap type hape beda2 (redmi note 10 pro menggunakan sweet_defconfig)
+KERNEL_DEFCONFIG=penrose_defconfig ## Ini defconfignya setiap type hape beda2 (redmi note 10 pro menggunakan sweet_defconfig)
 ANYKERNEL3_DIR=$PWD/AnyKernel3/ ## ini anykernel nya gunanya untuk membukus hasil compile untuk siap flash
 FINAL_KERNEL_ZIP=Aghisna-Kernel-$(date '+%Y%m%d').zip ## INI NAMA KERNEL zip NYA
 export PATH="$HOME/cosmic/bin:$PATH"
